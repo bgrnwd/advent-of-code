@@ -4,7 +4,7 @@ Advent of Code 2017 - Day 3
 # Imports
 from itertools import cycle
 
-def day3(max_num):
+def part1(max_num):
     """
     Day 3 Solution
     """
@@ -64,7 +64,7 @@ def main():
     """
     Main
     """
-    day3(289326)
+    part1(289326)
 
 if __name__ == "__main__":
     main()
