@@ -1,5 +1,11 @@
+"""
+Advent of Code 2017 - Day 1
+"""
 # Day 1
-def Day1():
+def day1():
+    """
+    Day 1 Solution
+    """
     # Variable declarations
     array = []
     total = 0
@@ -20,10 +26,13 @@ def Day1():
             # Add to total
             total += array[num]
     # Print answer
-    print total
+    print(total)
 
 def main():
-    Day1()
+    """
+    Main
+    """
+    day1()
 
 if __name__ == "__main__":
-    main()          
+    main()
