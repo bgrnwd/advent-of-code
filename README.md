@@ -1,5 +1,5 @@
-# Advent of Code 2017
+# Advent of Code
 
-Repo for my solutions for [Advent of Code 2017](http://adventofcode.com/)
+Repo for my solutions for [Advent of Code](http://adventofcode.com/)
 
-Solutions definitely not optimal, but hopefully working.
+Solutions not optimal, but hopefully working.
