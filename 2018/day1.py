@@ -9,6 +9,7 @@ def part1():
         for line in file:
             frequency_changes.append(line)
 
+    # Add frequencies together to get final frequency
     for f in frequency_changes:
         starting_frequency += int(f)
 
@@ -23,10 +24,13 @@ def part2():
         for line in file:
             frequency_changes.append(line)
 
+    # Set up circular list
     repeat_frequency = cycle(frequency_changes)
 
+    # Continously cycle through the list of frequencies
     for f in repeat_frequency:
         frequency += int(f)
+        # Find the first frequency sum that repeats
         if frequency in intermediate_frequencies:
             print(frequency)
             return
