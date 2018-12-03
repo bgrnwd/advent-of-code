@@ -48,7 +48,7 @@ def part2():
         # Checks char at each position and if they are not the same returns num of differences
         differ = len([c for c,d in ids if c!=d])
 
-        # If the difference is only once, displays the chars both ids have in common
+        # If the difference is only one char, displays the chars both ids have in common
         if differ == 1:
             l1 = list(a)
             l2 = list(b)
