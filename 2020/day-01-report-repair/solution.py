@@ -1,6 +1,6 @@
 import itertools
 
-with open("report-repair.txt") as f:
+with open("input.txt") as f:
     report = f.read().splitlines()
 
 report = [int(i) for i in report]
